@@ -107,8 +107,38 @@
   .nav_links li a:hover {
     color: #004263;
   }
-  
-  buttton {
+
+  /* Cards */
+.content {
+  padding: 50px;
+}
+.sectionHeading {
+  text-align: center;
+}
+.showsNear  {
+  padding: 0px 30px 30px 30px;
+}
+.cardContainer {
+  text-align: center;
+}
+
+/* Content */
+.sideAccent {
+  background: #012b3f
+  width: 15px;
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 50px;
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+  .buttton {
     padding: 9px 25px;
     background-color: rgba(0,102,153,1);
     border: none;
@@ -117,7 +147,7 @@
     margin-left: 20px;
   }
   
-  button:hover{
+  .button:hover{
    background-color:rgba(0,68,99,8.8);
   }
   footer {
