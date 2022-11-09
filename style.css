@@ -21,12 +21,20 @@
     }
   */
   
-    
+
+  .btn, .btn-primary {
+  background-color: #006699 !important;
+    }
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+      background-color: #004263 !important;
+      border-color: #285e8e !important;/*set the color you want here*/
+  }  
   .boxes {
     display: flex;
     flex-direction: row;
     margin: 10px; 
     padding: 20px;
+    justify-content: center;
     }
   .container {
     display:flex;
@@ -120,7 +128,10 @@
 }
 .cardContainer {
   text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
+
 
 /* Content */
 .sideAccent {
